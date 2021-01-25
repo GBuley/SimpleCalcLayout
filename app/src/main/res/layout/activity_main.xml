@@ -21,7 +21,7 @@
         android:id="@+id/btn_three"
         android:text="@string/three"
         android:layout_width="100dp"
-        android:layout_toRightOf="@id/btn_two"
+        android:layout_toEndOf="@id/btn_two"
         android:layout_height="100dp"/>
     <Button
         android:id="@+id/btn_four"
@@ -36,7 +36,7 @@
         android:text="@string/five"
         android:layout_width="100dp"
         android:layout_below="@id/btn_one"
-        android:layout_toRightOf="@id/btn_four"
+        android:layout_toEndOf="@id/btn_four"
         android:layout_centerHorizontal="true"
         android:layout_height="100dp"/>
     <Button
@@ -44,7 +44,7 @@
         android:text="@string/six"
         android:layout_width="100dp"
         android:layout_below="@id/btn_one"
-        android:layout_toRightOf="@id/btn_five"
+        android:layout_toEndOf="@id/btn_five"
         android:layout_centerHorizontal="true"
         android:layout_height="100dp"/>
     <Button
@@ -59,7 +59,7 @@
         android:id="@+id/btn_eight"
         android:text="@string/eight"
         android:layout_width="100dp"
-        android:layout_toRightOf="@id/btn_seven"
+        android:layout_toEndOf="@id/btn_seven"
         android:layout_below="@id/btn_four"
         android:layout_centerHorizontal="true"
         android:layout_height="100dp"/>
@@ -67,7 +67,7 @@
         android:id="@+id/btn_nine"
         android:text="@string/nine"
         android:layout_width="100dp"
-        android:layout_toRightOf="@id/btn_eight"
+        android:layout_toEndOf="@id/btn_eight"
         android:layout_below="@id/btn_four"
         android:layout_centerHorizontal="true"
         android:layout_height="100dp"/>
@@ -84,7 +84,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_below="@id/btn_nine"
-        android:layout_toRightOf="@id/btn_star" />
+        android:layout_toEndOf="@id/btn_star" />
 
     <!--Got 0dp working by using relative layout but looks bad-->
     <Button
@@ -94,7 +94,7 @@
         android:layout_height="100dp"
         android:layout_alignParentEnd="true"
         android:layout_below="@id/btn_nine"
-        android:layout_toRightOf="@id/btn_zero" />
+        android:layout_toEndOf="@id/btn_zero" />
 
 
 
