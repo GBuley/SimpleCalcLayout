@@ -14,4 +14,14 @@
     <string name="pound">#</string>
     <string name="zero">0</string>
     <string name="star">*</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="agree_text">I have read and agree to</string>
+    <string name="link_maybe"><a href="hello.com">Terms and Service</a></string>
+    <string name="t_and_s"><a href="hello.com">Terms and Conditions</a></string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in"><a href="google.com">Sign in</a></string>
 </resources>
