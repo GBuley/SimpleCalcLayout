@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -14,7 +15,7 @@
         android:textSize="21sp"
         android:layout_centerHorizontal="true"
         android:layout_marginVertical="100dp"
-        />
+        tools:ignore="RelativeOverlap" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -22,7 +23,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
-        android:src="@drawable/ic_x_icon"></ImageView>
+        android:src="@drawable/ic_x_icon"
+        android:contentDescription="@string/x" />
 
     <EditText
         android:id="@+id/name"
@@ -81,7 +83,7 @@
         android:layout_marginStart="55dp"
         android:layout_marginTop="10dp"
         android:buttonTint="@color/purp"
-        android:textSize="10sp"
+        android:textSize="12sp"
         android:textColor="@color/dark_blue"/>
 
     <TextView
@@ -97,7 +99,7 @@
         android:text="@string/t_and_s"
         android:textColor="@color/purp"
         android:textColorLink="@color/purp"
-        android:textSize="10sp"
+        android:textSize="12sp"
         android:focusable="true" />
 
     <Button
@@ -132,6 +134,7 @@
         android:layout_marginTop="30dp"
         android:layout_toEndOf="@id/have_an_account"
         android:clickable="true"
+        android:focusable="true"
         android:autoLink="web"
         android:textColor="@color/purp"
         android:text="@string/sign_in"/>
